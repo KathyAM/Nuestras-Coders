@@ -4,15 +4,15 @@ body{
 }
 
 h3{
-	margin-left: 35px; 
+	margin-left: 25px; 
 	margin-top: 45px;
 }
 
 hr{
-	width: 515px;
+	width: 525px;
 	height: 2px;
 	background-color: gray;
-	margin-left: 33px;
+	margin-left: 25px;
 }
 
 span{
@@ -21,8 +21,12 @@ span{
 	background: #333;
 	height: 20px;
 	display: inline-block;
-	margin-top: 33px;
-	margin-left: 40px;
+	margin-top: 12px;
+	margin-left: 12px;
+	padding: 5px;
+	height: auto;
+	width: auto;
+	border-radius: 7px;
 }
 
 div{
