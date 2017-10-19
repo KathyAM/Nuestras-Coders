@@ -8,52 +8,85 @@ h3{
 	margin-top: 45px;
 }
 
-p{
+hr{
+	width: 515px;
+	height: 2px;
+	background-color: gray;
+	margin-left: 33px;
+}
+
+span{
 	font-size: 15px;
-	color: #000;
-	font-weight: bold;
+	color: #fff;
+	background: #333;
+	height: 20px;
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 33px;
 	margin-left: 40px;
 }
 
-div {
+div{
 	width: 200px;
 	height: 200px;
-	margin: 0px;
+	margin: 10px;
+	float: left;
 	background-repeat: no-repeat;
-	background-size: 70%;
+	background-size: 80%;
 	background-position: center;
 	display: inline-block;
 	font-family: sans-serif;
 }
 
 #f1{
-	background-image: url(../img/f1-1.jpg);
+	background-image: url(../img/f1.jpg);
 	position: absolute; left: 10px; top: 80px;
 }
 
 #f2{
-	background-image: url(../img/f2_2.jpg);
-	position: absolute; left: 173px; top: 80px;
+	background-image: url(../img/f2.jpg);
+	position: absolute; left: 190px; top: 80px;
 }
 
 #f3{
-	background-image: url(../img/f3_3.jpg);
-	position: absolute; left: 338px; top: 80px;
+	background-image: url(../img/f3.jpg);
+	position: absolute; left: 370px; top: 80px;
 }
 
 #f4{
-	background-image: url(../img/f4-4.jpg);
+	background-image: url(../img/f4.jpeg);
 	position: absolute; left: 10px; top: 260px;
 }
 
 #f5{
-	background-image: url(../img/f5_5.jpg);
-	position: absolute; left: 173px; top: 260px;
+	background-image: url(../img/f5.jpg);
+	position: absolute; left: 190px; top: 260px;
 }
 
 #f6{
+	background-image: url(../img/f6.jpg);
+	position: absolute; left: 370px; top: 260px;
+}
+
+#f1:hover{
+	background-image: url(../img/f1-1.jpg);
+}
+
+#f2:hover{
+	background-image: url(../img/f2_2.jpg);
+}
+
+#f3:hover{
+	background-image: url(../img/f3_3.jpg);
+}
+
+#f4:hover{
+	background-image: url(../img/f4-4.jpg);
+}
+
+#f5:hover{
+	background-image: url(../img/f5_5.jpg);
+}
+
+#f6:hover{
 	background-image: url(../img/f6_6.jpg);
-	position: absolute; left: 338px; top: 260px;
 }
