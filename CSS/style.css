@@ -1,0 +1,59 @@
+body{
+	font-family: sans-serif;
+	color: gray;
+}
+
+h3{
+	margin-left: 35px; 
+	margin-top: 45px;
+}
+
+p{
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+	display: inline-block;
+	font-family: sans-serif;
+}
+
+#f1{
+	background-image: url(../img/f1-1.jpg);
+	position: absolute; left: 10px; top: 80px;
+}
+
+#f2{
+	background-image: url(../img/f2_2.jpg);
+	position: absolute; left: 173px; top: 80px;
+}
+
+#f3{
+	background-image: url(../img/f3_3.jpg);
+	position: absolute; left: 338px; top: 80px;
+}
+
+#f4{
+	background-image: url(../img/f4-4.jpg);
+	position: absolute; left: 10px; top: 260px;
+}
+
+#f5{
+	background-image: url(../img/f5_5.jpg);
+	position: absolute; left: 173px; top: 260px;
+}
+
+#f6{
+	background-image: url(../img/f6_6.jpg);
+	position: absolute; left: 338px; top: 260px;
+}
